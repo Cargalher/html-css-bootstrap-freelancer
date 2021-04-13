@@ -2,11 +2,23 @@ nav{
     height: 40px;
 }
 .img_header{
-    height:200px
+    height:400px
 }
 
 main{
-    height: 600px;
+    height: 800px;
+}
+.section_one{
+    height:200px;
+}
+.section_two{
+    height:200px;
+}
+.section_three{
+    height:200px;
+}
+.section_four{
+    height:200px;
 }
 footer{
     height:200px;
