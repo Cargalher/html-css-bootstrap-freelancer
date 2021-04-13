@@ -13,10 +13,10 @@ nav{
 .pt_2{
     padding-top: 8px;
 }
-
-main{
-    height: 1250px;
+.t_a_center{
+    text-align: center;
 }
+
 .section_one{
     height:500px;
 }
@@ -57,11 +57,13 @@ height: 200px;
     background-color: #1ABC9C;
 }
 .section_three{
-    height:400px;
+    height:500px;
 }
 .section_four{
     height:150px;
+    background-color: #3A546D;
 }
 footer{
-    height:200px;
+    height:40px;
+    background-color: #2C3E50;
 }
