@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Freelancer | Boostrap</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
     <!-- Boostrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -66,15 +70,39 @@
 
         <section class="section_two bg-turquoise text-white">
             <h2 class="text-center ">About</h2>
-            <div class="container d-flex flex-wrap">
+            <div class="container">
                 <div class="row ">
-                    <div class="col-6 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rerum quia deserunt quidem dicta minima aliquam illum alias maxime. Vitae exercitationem adipisci sapiente debitis eaque aliquid excepturi dolor accusantium architecto illo, officia eius esse officiis reprehenderit quod quasi id necessitatibus, quae nihil ullam provident blanditiis nam itaque velit. Quam, repellat.</div>
-                    <div class="col-6 pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit aperiam atque impedit vitae libero, saepe id debitis sapiente officia a repellendus molestias voluptatibus ea nobis deserunt sunt totam nisi earum consectetur itaque eveniet quos. Nobis corrupti sint alias eos ea aliquid totam ipsa odio. Nemo ipsam porro corrupti quasi officiis!</div>
+                    <div class="col-md-6 col-lg-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete sourde files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. </div>
+                    <div class="col-md-6 col-lg-6">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
                 </div>
-            </div>
-        </section>
+            </div> 
+                <button type="button" class="btn btn-outline-light"><i class="fas fa-download"></i> Download</button>
+        
+            </section>
+
         <section class="section_three bg-light">
-            <div class="container "></div>
+            <h2 class="text-center ">Contact me</h2>
+            <div class="container ">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Phone number</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-solid bg-turquoise text-white">Send</button>
+                </form>
+            </div>
         </section>
         
     </main>
