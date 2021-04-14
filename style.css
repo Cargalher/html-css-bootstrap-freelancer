@@ -43,3 +43,30 @@
     background-color: white;
     z-index: 0;
 }
+.blue_star{
+    position: relative;
+    
+}
+.blue_star::before{
+    content:"";
+    display:block;
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    left:390px;
+    top:50%;
+    background-color: #2C3E50;
+    z-index: 0;
+    
+}
+.blue_star::after{
+   content:"";
+   display:block;
+   width: 120px;
+   height: 3px;
+   position: absolute;
+   right:390px;
+   top:50%;
+   background-color: #2C3E50;
+   z-index: 0;
+}
