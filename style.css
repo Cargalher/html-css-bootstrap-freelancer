@@ -1,8 +1,9 @@
 /* utility */
-
+.bg-deepblue{
+    background-color: #2C3E50;
+}
 nav{
     height: 40px;
-    background-color: #2C3E50;
 }
 .img_header{
     height:400px;
