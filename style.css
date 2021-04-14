@@ -2,12 +2,15 @@
 .bg-deepblue{
     background-color: #2C3E50;
 }
+.bg-turquoise{
+    background-color: #1ABC9C;
+}
 nav{
     height: 40px;
 }
 .img_header{
     height:400px;
-    background-color: #1ABC9C;
+    
 }
 
 
