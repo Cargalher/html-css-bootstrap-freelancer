@@ -16,3 +16,30 @@
     height:200px;
     
 }
+.img_star{
+    position: relative;
+    
+}
+ .img_star::before{
+     content:"";
+     display:block;
+     width: 120px;
+     height: 3px;
+     position: absolute;
+     left:390px;
+     top:50%;
+     background-color: white;
+     z-index: 0;
+     
+ }
+ .img_star::after{
+    content:"";
+    display:block;
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    right:390px;
+    top:50%;
+    background-color: white;
+    z-index: 0;
+}
