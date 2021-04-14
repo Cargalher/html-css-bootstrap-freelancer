@@ -1,23 +1,20 @@
 /* utility */
+.body{
+    
+}
 .bg-deepblue{
     background-color: #2C3E50;
 }
 .bg-turquoise{
     background-color: #1ABC9C;
 }
-
+.txt_turquoise{
+    color: #1ABC9C;
+}
+.bg_blue{
+    background-color: #3A546D;
+}
 .jumbo-img{
     height:200px;
     
-}
-
-
-
-
-.section_three{
-    height:500px;
-}
-.section_four{
-    height:150px;
-    background-color: #3A546D;
 }
