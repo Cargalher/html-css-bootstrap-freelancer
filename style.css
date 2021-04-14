@@ -1,7 +1,5 @@
 /* utility */
-.pdt-20px{
-    padding-top:20px;
-}
+
 nav{
     height: 40px;
     background-color: #2C3E50;
@@ -10,47 +8,12 @@ nav{
     height:400px;
     background-color: #1ABC9C;
 }
-.pt_2{
-    padding-top: 8px;
-}
-.t_a_center{
-    text-align: center;
-}
+
 
 .section_one{
     height:500px;
 }
-/* portfolio bg-colors */
-.bg_one{
-    background-color: #BA4B63;
-    height: 200px;
-    border-radius: 10px;
-}
-.bg_two{
-background-color: #1EA4B6;
-height: 200px;
-    border-radius: 10px;
-}
-.bg_three{
-    background-color: #140F0F;
-    height: 200px;
-    border-radius: 10px;
-}
-.bg_four{
-    background-color:#1C83C1 ;
-    height: 200px;
-    border-radius: 10px;
-}
-.bg_five{
-    background-color: #0E38B5;
-    height: 200px;
-    border-radius: 10px;
-}
-.bg_six{
-    background-color: #CCB2A3;
-    height: 200px;
-    border-radius: 10px;
-}
+
 .section_two{
     height:300px;
    
@@ -62,8 +25,4 @@ height: 200px;
 .section_four{
     height:150px;
     background-color: #3A546D;
-}
-footer{
-    height:40px;
-    background-color: #2C3E50;
 }
